@@ -1,0 +1,17 @@
+plugins {
+	//루트 build.gradle에서 추가해줌
+}
+
+dependencies {
+	// 공통 모듈 의존성
+	implementation project(':eventmart-common')
+
+	// 웹 및 API 관련
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+	// MySQL 데이터베이스
+	runtimeOnly 'com.mysql:mysql-connector-j'
+}
+
+tasks.register("prepareKotlinBuildScriptModel"){}

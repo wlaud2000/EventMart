@@ -1,8 +1,5 @@
 plugins {
-	id 'java'
 	id 'java-library' // 라이브러리 개발에 필요한 추가 기능 제공
-	id 'org.springframework.boot'
-	id 'io.spring.dependency-management'
 }
 
 bootJar {
