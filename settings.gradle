@@ -2,3 +2,4 @@ rootProject.name = 'EventMart'
 include("eventmart-common")
 include("eventmart-order-service")
 include("eventmart-inventory-service")
+include("eventmart-payment-service")

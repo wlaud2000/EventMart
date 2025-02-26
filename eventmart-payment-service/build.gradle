@@ -1,0 +1,26 @@
+plugins {
+	//루트 build.gradle에서 추가해줌
+}
+
+dependencies {
+	// 공통 모듈 의존성
+	implementation project(':eventmart-common')
+
+	// 웹 및 API 관련
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+	// MySQL 데이터베이스
+	runtimeOnly 'com.mysql:mysql-connector-j'
+
+	// 결제 관련 라이브러리
+	implementation 'com.github.iamport:iamport-rest-client-java:0.2.21'
+}
+
+repositories {
+	mavenCentral()
+	maven { url 'https://jitpack.io' }
+}
+
+
+tasks.register("prepareKotlinBuildScriptModel"){}
