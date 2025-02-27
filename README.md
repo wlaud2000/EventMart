@@ -1,8 +1,47 @@
-# EventMart
+# EventMart - 이벤트 기반 아키텍처 실습 프로젝트
 
-Java 17
+## 목차
+[프로젝트 개요](#프로젝트-개요) \
+[학습 목표](#학습-목표) \
+[기술 스택](#기술-스택) \
+[ERD](#erd)
 
-Spring Boot 3.4.3
+### 프로젝트 개요
+
+EventMart는 이벤트 드리븐 아키텍처(EDA)의 원리와 패턴을 실제로 구현해볼 수 있는 온라인 쇼핑몰 시스템입니다. \
+이 프로젝트를 통해 주문, 재고, 배송 도메인 간의 느슨한 결합을 구현하고, 이벤트를 통한 비동기 통신 방식의 장점을 경험할 수 있습니다.
+
+---
+
+### 학습 목표
+
+- 이벤트 기반 통신의 실제 구현 및 운영 경험
+- 분산 시스템에서의 트랜잭션 관리 전략 습득
+- CQRS 패턴과 이벤트 소싱의 실용적 적용
+- 마이크로서비스 간 통신을 위한 이벤트 설계 경험
+- 확장 가능하고 회복력 있는 시스템 구축 역량 강화
+
+---
+
+### 기술 스택
+- Java 17
+- Spring Boot 3.4.3
+- Spring Data JPA
+- Spring Kafka
+- Kafka/Zookeeper
+- Schema Registry
+- MongoDB (읽기 모델용)
+- PostgreSQL (쓰기 모델용)
+- Docker & Docker Compose
+- OpenTelemetry, Zipkin, Prometheus, Grafana
+
+---
+
+### ERD
+https://www.erdcloud.com/d/7aDy9uLeEXDWmYZif
+<img width="1372" alt="image" src="https://github.com/user-attachments/assets/0a78e3ad-7635-4845-adca-54a411b45590" />
+
+---
 
 ### 📋 Commit Message Convention
 |   Gitmoji   |    Tag     | Description |
