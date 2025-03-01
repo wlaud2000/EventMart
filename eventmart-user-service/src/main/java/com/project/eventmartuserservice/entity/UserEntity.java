@@ -1,13 +1,12 @@
-package com.project.eventmartuserservice.infrastructure.entity;
+package com.project.eventmartuserservice.entity;
 
 import com.project.eventmartcommon.entity.BaseEntity;
-import com.project.eventmartuserservice.domain.enums.UserRole;
+import com.project.eventmartuserservice.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import java.time.LocalDateTime;
-import java.util.Set;
 
 @Entity
 @Table(name = "users")

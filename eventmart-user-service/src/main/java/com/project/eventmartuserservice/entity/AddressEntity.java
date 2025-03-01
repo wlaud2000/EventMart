@@ -1,4 +1,4 @@
-package com.project.eventmartuserservice.infrastructure.entity;
+package com.project.eventmartuserservice.entity;
 
 import jakarta.persistence.*;
 import lombok.*;

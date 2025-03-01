@@ -1,4 +1,4 @@
-package com.project.eventmartuserservice.domain.enums;
+package com.project.eventmartuserservice.enums;
 
 public enum UserRole {
     USER,

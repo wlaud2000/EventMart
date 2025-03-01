@@ -1,4 +1,4 @@
-package com.project.eventmartuserservice.domain.exception;
+package com.project.eventmartuserservice.exception;
 
 import com.project.eventmartcommon.apiPayload.code.BaseErrorCode;
 import com.project.eventmartcommon.apiPayload.exception.CustomException;
